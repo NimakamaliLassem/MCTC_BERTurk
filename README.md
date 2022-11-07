@@ -320,8 +320,7 @@ Predicted Class: B
 
 Multi-Label Text Classiﬁcation is very similar to the [Multi-Class Text Classiﬁcation]{.ul} {page 6} task weelaborated earlier in this document. The only difference is that an item (sentence) can belong to **one ormore** classes (categories). Therefore, the **one-hot encoding** of this task would look like this**:**
 
-![](vertopal_f4c0706f74e74041915764d82d41ebe1/media/image7.png){width="7.083333333333333in"
-height="1.8430544619422573in"}
+![](vertopal_f4c0706f74e74041915764d82d41ebe1/media/image7.png)
 
 As you see, A belongs to multiple types here, resulting in A being True for more than one class. Suchmodel could provide us with alternatives or probabilities for each class, thus, it can be useful in casesthat the answer might not always be deﬁnitive.
 
