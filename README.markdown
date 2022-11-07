@@ -51,19 +51,23 @@ The following project plan consists of three main sections:
 ## Research (June 13 - October 14)
 
 ![](vertopal_f4c0706f74e74041915764d82d41ebe1/media/image2.png)
+
 ● Researching NLP/Models: Researching NLP concepts and their models to determine the most
 suitable for domain-specific problems such as medical and justice domains. The studies included
 a search for Train and Test datasets.
+
 ● Experiment Data Collection: to fulfill the need for related datasets for the upcoming experiments,
 we collected data from various sources, including Kaggle, Twitter, and legal documents. We have
 covered more than 250,000 court decisions (mahkeme kararları) and approximately 5 Gigabytes
 of public formal (Yargıtay and Danıştay) and informal (Turkish Spam messages) documents.
+
 ● Pre-project Experimenting: to prove our findings from our research on NLP, we carried out
 experiments on different language models like BERT and fastText. After successfully comparing
 the said models and displaying BERT’s lead on the experiment results, we have investigated its
 functions and possible outcomes. Up to now, BERTurk-Base-128k has shown promising results
 for Binary and Multi-class Text Classifications with accuracy scores of over 95 and 75 percent,
 respectively.
+
 ● Hardware Requirements: our research showed a minimum GPU RAM size of 16 GB. We were
 given remote access to a desktop computer equipped with an RTX A6000 48 GB GPU. We will
 request assistance in case of a need for more computing power for the project.
@@ -72,9 +76,12 @@ request assistance in case of a need for more computing power for the project.
 
 ![](vertopal_f4c0706f74e74041915764d82d41ebe1/media/image3.png)
 
-  ● Follow-Up Meetings: consist of five assignments regarding work experience.
+● Follow-Up Meetings: consist of five assignments regarding work experience.
+
 ● Interim Meeting: Presentation of acquired skills and experience to the internship coordinator.
+
 ● Company Evaluation and Report Evaluation: Evaluationsforms. 30 Hour workload expected.
+
 ● Jury: Presentation of acquired skills and experiences to the jury members after the
 internship—January 7th to 13th.
 
@@ -92,7 +99,8 @@ Data Collection and Processing**
 requirements for the project. Understanding the project aims and goals and choosing resources
 and tools to be used for the projects. This task will be accomplished alongside or immediately
 followed by Data Collection and Processing.
-**● Data Collection and Processing:** similar to the data collection in the experiment phase. As there
+
+● **Data Collection and Processing:** similar to the data collection in the experiment phase. As there
 are a limited number of resources available in the justice domain, it is expected that we will need
 a long time to create or process the previously obtained data to be usable as _“train and test
 datasets”_ for the project labeling should be done within the scope of the multi-class text
@@ -104,11 +112,13 @@ the sentences they belong. Since BERT works with a limited amount of words in th
 need to process our data accordingly. The data will be stored in TSV (tab-separated values)
 the format in two main columns: sequences and categories (classes). There can be more columns in
 the dataset, however, they will not be used in the final program.
-**● Code and Test weeks:** we will deliver the project in multiple iterations, facilitating weekly tests to
+
+● **Code and Test weeks:** we will deliver the project in multiple iterations, facilitating weekly tests to
 ensure admissible project results. At the end of each week (Fridays), we will report the week’s
 success rate evaluation and issues to be dealt with in the sprint. We will repeat this task until it
 produces satisfying results or enters the deployment phase.
-**● Deployment / Final Report:** At the end of the internship, we will take action based on the project's
+
+● **Deployment / Final Report:** At the end of the internship, we will take action based on the project's
 final results. This phase includes saving and deploying the most successful model.
 
 The details on this document are subject to change. Adjustments are
